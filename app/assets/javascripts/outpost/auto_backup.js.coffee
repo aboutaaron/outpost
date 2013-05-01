@@ -3,7 +3,7 @@
 #
 # Preview functionality for the CMS
 #
-class outpost.AutoSave
+class outpost.AutoBackup
     defaults:
         intervalInSeconds: 30
 
@@ -27,7 +27,7 @@ class outpost.AutoSave
         $.ajax
             type: 'POST'
             dataType: "html"
-            url: "#{_t.options.baseUrl}/autosave"
+            url: "#{_t.options.baseUrl}/backup"
             data:
                 data
             

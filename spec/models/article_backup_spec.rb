@@ -1,4 +1,4 @@
 require 'spec_helper'
 
-describe AutoSave do
+describe ArticleBackup do
 end
